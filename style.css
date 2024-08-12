@@ -3,3 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+nav,
+footer,
+section {
+  display: flex;
+  align-items: end;
+}
+
+header {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-para {
+  text-align: left;
+}
+
+nav {
+  justify-content: space-around;
+}
+
+footer {
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  cursor: pointer;
+}
+
+section {
+  justify-content: center;
+}
