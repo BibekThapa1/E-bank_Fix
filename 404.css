@@ -223,139 +223,26 @@ footer a {
 }
 /* basics*/
 
-.main-section {
+.four04-section {
   display: flex;
   flex-direction: column;
-  position: relative;
-  margin-bottom: 250px;
+  gap: 3rem;
+  padding: 4rem 2rem;
 }
 
-.landing-main-img {
+.four04-section img {
   width: 100%;
 }
 
-.main-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 2rem;
-  position: absolute;
-  bottom: -200px;
-}
-
-.main-sub-container {
-  cursor: pointer;
-  border-radius: 3px;
-  background-color: white;
+.four04-section div {
   display: flex;
-  gap: 1rem;
   flex-direction: column;
+  gap: 1rem;
   align-items: center;
-  justify-content: center;
-  padding: 16px 5px;
-  box-shadow: 4px 4px 10px rgb(75, 73, 73);
 }
 
-.main-sub-container p {
-  font-size: large;
-  font-weight: bold;
-}
-
-.main-sub-container img {
-  width: 40px;
-}
-
-.main-sub-container:hover {
-  background-color: var(--primary-color);
-}
-
-.main-sub-container:hover img {
-  filter: invert(1) brightness(2);
-}
-
-.main-sub-container:hover p {
-  color: white;
-  fill: white;
-}
-
-.newsletter-section {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  justify-content: center;
-  padding: 60px 11px;
-  /* margin-bottom: 100px; */
-}
-
-.newsletter-section p,
-.newsletter-section h1 {
-  color: white;
-  text-align: center;
-}
-
-.newsletter-form {
-  text-align: center;
-}
-
-.newsletter-section input {
-  font-size: larger;
-  padding: 6.5px 8px 6.5px 10px;
-  border: none;
-  border-radius: 4px;
-}
-
-.newsletter-section input:focus {
-  outline: none;
-}
-
-.partners-section {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 50px 0;
-}
-
-.partners-section h1 {
-  font-size: x-large;
-}
-
-.partner-image {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 2rem;
-}
-
-.partner-image :nth-child(n) {
-  width: 150px;
-}
-
-.grow-money-section {
-  background-color: var(--primary-color);
-  border: 2px solid white;
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 4rem;
-  padding: 30px 0 40px 0;
-}
-
-.grow-money-img {
-  width: 50%;
-}
-
-.grow-money-div {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  text-align: center;
-  padding: 0 20px;
-}
-
-.grow-money-div :nth-child(n) {
-  color: white;
-}
-
-.map-section iframe {
-  width: 100%;
+.four04-div h1 {
+  font-size: xx-large;
 }
 
 @media (min-width: 768px) {
@@ -375,55 +262,8 @@ footer a {
 
   /* basics*/
 
-  .main-section {
-    margin-bottom: 100px;
-  }
-
-  .main-container {
-    grid-template-columns: auto auto auto auto;
-    bottom: -55px;
-  }
-
-  .main-sub-container {
-    width: 150px;
-  }
-
-  .newsletter-section {
-    gap: 1.3rem;
-    padding: 80px 11px;
-  }
-
-  .newsletter-section h1 {
-    font-size: xx-large;
-  }
-
-  .newsletter-section p {
-    font-size: 1.4rem;
-  }
-
-  .newsletter-form {
-    text-align: center;
-  }
-
-  .partners-section {
-    gap: 3rem;
-  }
-
-  .partners-section h1 {
-    font-size: xx-large;
-  }
-
-  .grow-money-section {
-    gap: 2rem;
-    padding: 30px 0 30px 0;
-  }
-
-  .grow-money-div {
-    padding: 0 150px;
-  }
-
-  .grow-money-img {
-    width: 40%;
+  .four04-section img {
+    width: 60%;
   }
 }
 
@@ -466,60 +306,19 @@ footer a {
   }
 
   /* basics*/
-  .main-section {
-    margin-bottom: 120px;
-  }
 
-  .main-container {
-    grid-template-columns: auto auto auto auto;
-    bottom: -70px;
-  }
-
-  .main-sub-container {
-    width: 160px;
-    height: 140px;
-  }
-
-  .partners-section {
-    padding: 80px 0;
-  }
-
-  .partners-section h1 {
-    font-size: 2.2rem;
-  }
-
-  .partner-image {
-    display: flex;
-    gap: 5rem;
-  }
-
-  .partner-image :nth-child(n) {
-    width: 150px;
-    height: 65px;
-  }
-
-  .grow-money-section {
+  .four04-section {
     flex-direction: row;
-    align-items: start;
-    padding: 20px 60px;
+    gap: 4rem;
+    padding: 3rem 2rem;
   }
 
-  .grow-money-img {
+  .four04-section img {
     width: 50%;
   }
 
-  .grow-money-div {
-    text-align: start;
-    padding: 2rem 2rem 0 0.5rem;
-  }
-
-  .grow-money-div h1 {
-    font-size: xx-large;
-  }
-
-  .grow-money-div p {
-    font-size: large;
-    text-align: justify;
+  .four04-section div {
+    width: 50%;
   }
 }
 
@@ -538,39 +337,8 @@ footer a {
   }
   /* basics*/
 
-  .main-container {
-    gap: 3rem;
-    bottom: -75px;
-  }
-
-  .main-sub-container {
-    width: 180px;
-    height: 150px;
-  }
-
-  .partner-image :nth-child(n) {
-    width: 150px;
-    height: 67px;
-  }
-
-  .grow-money-section {
-    gap: 4rem;
-  }
-
-  .grow-money-img {
-    width: 100%;
-  }
-
-  .grow-money-div {
-    padding: 6rem 6rem 0 0.5rem;
-  }
-
-  .grow-money-div h1 {
-    font-size: 2.5rem;
-  }
-
-  .grow-money-div p {
-    font-size: 1.3rem;
+  .four04-section {
+    padding: 4rem 2rem 4rem 6rem;
   }
 }
 
@@ -613,77 +381,28 @@ footer a {
   .copyright {
     font-size: x-large;
   }
-
   /* basics*/
 
-  .main-section {
-    margin-bottom: 160px;
+  .four04-section {
+    padding: 6rem 2rem 6rem 8rem;
   }
 
-  .main-container {
-    gap: 5rem;
-    bottom: -100px;
+  .four04-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
   }
 
-  .main-sub-container {
-    width: 250px;
-    height: 220px;
-  }
-
-  .main-sub-container p {
-    font-size: 2rem;
-  }
-
-  .main-sub-container img {
-    width: 60px;
-  }
-
-  .newsletter-section h1 {
-    font-size: 3.5rem;
-  }
-
-  .newsletter-section p {
-    font-size: 2.5rem;
-  }
-
-  .newsletter-section input {
-    font-size: x-large;
-  }
-  .newsletter-section button {
-    padding: 0.5rem 1rem;
-    font-size: x-large;
-  }
-
-  .partners-section h1 {
-    font-size: 3.8rem;
-  }
-
-  .partners-section {
-    padding: 100px 0;
-  }
-
-  .partner-image :nth-child(n) {
-    width: 240px;
-    height: 100px;
-  }
-
-  .grow-money-section {
-    gap: 5rem;
-  }
-
-  .grow-money-img {
-    width: 100%;
-  }
-
-  .grow-money-div {
-    padding: 7rem 14rem 0 0.5rem;
-  }
-
-  .grow-money-div h1 {
+  .four04-div h1 {
     font-size: 4rem;
   }
 
-  .grow-money-div p {
-    font-size: 2.5rem;
+  .four04-div h2 {
+    font-size: 3rem;
+  }
+
+  .four04-div button {
+    font-size: 2rem;
   }
 }
