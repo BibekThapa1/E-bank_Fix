@@ -223,6 +223,11 @@ footer a {
 }
 /* basics*/
 
+.contact-info-h1 {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   footer {
     display: grid;
@@ -296,6 +301,10 @@ footer a {
     font-size: larger;
   }
   /* basics*/
+
+  .contact-info-section {
+    display: flex;
+  }
 }
 
 @media (min-width: 2560px) {
