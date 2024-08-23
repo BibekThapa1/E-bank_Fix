@@ -233,6 +233,10 @@ footer a {
   flex-direction: column;
 }
 
+.map-section iframe {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   footer {
     display: grid;
