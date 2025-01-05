@@ -154,21 +154,21 @@ nav {
 .ham-wrapper {
   display: none;
 }
-
-.ham-wrapper.active {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  padding: 1rem 0;
-  z-index: 10;
-}
-
+@media (max-width: 1024px){
+  .ham-wrapper.active {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 10;
+  }
+  }
 .nav-links {
   display: flex;
   flex-direction: column;
